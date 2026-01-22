@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "alura-books",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
