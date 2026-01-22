@@ -1,0 +1,18 @@
+meta {
+  name: patchLivro
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8000/livros/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "8",
+    "nome": "Livro super mais da hora"
+  }
+}
