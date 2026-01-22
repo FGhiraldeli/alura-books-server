@@ -4,8 +4,15 @@ meta {
   seq: 2
 }
 
-get {
+post {
   url: http://localhost:8000/livros
-  body: none
+  body: json
   auth: none
+}
+
+body:json {
+   {
+      "id": "7",
+      "nome": "Livro muito supimpa"
+    }
 }
